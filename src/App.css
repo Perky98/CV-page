@@ -34,6 +34,8 @@
   margin-right: auto;
   margin-left: auto;
   max-width: 1600px;
+  padding-left: 1.125em;
+  padding-right: 1.125em;
 
 }
 
@@ -49,7 +51,9 @@
 .first_section {
   margin-top: 5em;
   margin-bottom: 5em;
-  height: 100vw;
+  height: 40vw;
+  display: grid;
+  place-items: center;
 }
 
 .about_me {

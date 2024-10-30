@@ -13,19 +13,21 @@ function App() {
   return (
     <>
     <section className="box-content first_section">
-      <img src={myphoto} className="photo" alt="Juraj Hertel" />
-      <h1>Juraj Hertel</h1>
-      <h2>Student & Developer</h2>
       <div>
-        <a href="https://github.com/Perky98" target="_blank">
-          <img src={github} className="small-logo" alt="Github" />
-        </a>
-        <a href="mailto:jurajhertel98@gmail.com">
-          <img src={mail} className="small-logo" alt="Maik" />
-        </a>
-        <a href="https://www.instagram.com/juraj_hertel/" target="_blank">
-          <img src={instagram} className="small-logo" alt="Instagram" />
-        </a>
+        <img src={myphoto} className="photo" alt="Juraj Hertel" />
+        <h1>Juraj Hertel</h1>
+        <h2>Student & Developer</h2>
+        <div>
+          <a href="https://github.com/Perky98" target="_blank">
+            <img src={github} className="small-logo" alt="Github" />
+          </a>
+          <a href="mailto:jurajhertel98@gmail.com">
+            <img src={mail} className="small-logo" alt="Maik" />
+          </a>
+          <a href="https://www.instagram.com/juraj_hertel/" target="_blank">
+            <img src={instagram} className="small-logo" alt="Instagram" />
+          </a>
+        </div>
       </div>
     </section>
     <section className="about_me full-width">
